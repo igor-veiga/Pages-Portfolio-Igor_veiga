@@ -5,10 +5,6 @@
     text-decoration: none;
 }
 
-
-
-
-
  body{
    background: linear-gradient(#5d70703a, #485757e3);
  }
@@ -27,18 +23,18 @@
  header:hover{
   background:#485757ad;
  }
- .logo{
+ h1{
   text-align: center;
  }
- .logo a{
+ h1 a{
    color: black;
    font-size: max(18px, 2vw);
  }
- .logo a:hover{
+ h1 a:hover{
   color: white;
   font-size:max(22px, 2.2vw);
  }
- .logo:hover{
+ h1:hover{
   background-color: rgb(32, 92, 92);
   border-radius: 10px;
  }
@@ -70,7 +66,7 @@ li a:hover{
 
 
 
-.conteudo{
+article{
   display: flex;
   padding:1rem ;
   margin: 1rem;
@@ -81,54 +77,53 @@ li a:hover{
   height: 84.66vh;
 
 }
-.Texperiencia{
-  border: 2px solid black;
+.Texto{
+  border: 2px solid whitesmoke;
   padding:1rem ;
   margin: 1rem;
 }
 
-.Texperiencia p{
+.Texto p{
 font-family: 'Times New Roman', Times, serif;
 font-weight: bold;
 font-size: max(10px, 3vw);
 
-}.Texperiencia h2{
+}.Texto h2{
   font-size:max(30px,5vw) ;
   text-align: center;
 }
-.Texperiencia h3{
+.Texto h3{
   font-size:max(20px,4vw) ;
 }
 
 
 
 
-.Fexperiencia{
+figure{
   border-radius: 10px;
-  border: 2px solid black;
-  padding-right:1rem ;
-  padding-top: 0.8rem;
   margin: 1.rem;
   
-  background: #1c2222;
   
 }
-.Fexperiencia p{
+figure p{
   
   font-weight: bold;
   font-size: 20px;
 }
-.Fexperiencia img{
+figure img{
   border-radius: 10px;
   display: block;
   width:max(7rem,32vw);
  
 }
-
 h5{
   font-size: max(10px,2.5vw);
 }
-
+iframe{
+  display: block;
+  width:max(7rem,26vw);
+  height: max(7rem,18vw);
+}
 
 .projetos{
   padding-left:3.5rem ;
@@ -195,7 +190,7 @@ footer{
   color: yellow;
 }
 img{
-  width:20rem;
+width:max(7rem,23vw);
 }
 #mensagem{
   height: 3rem;
